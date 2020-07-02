@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{7A8D536D-8B49-4714-A8A8-22675216EA5B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Inu_web_clone/Models/DAO/DaoMember.cs">
+    <Files>
+      <File FileName="Inu_web_clone/Controllers/MemberController.cs" Line="145" Column="54" />
+      <File FileName="Inu_web_clone/Models/DTO/DtoMembers.cs" Line="53" Column="10" />
+      <File FileName="Inu_web_clone/Models/DAO/DaoMember.cs" Line="28" Column="1" />
+      <File FileName="Inu_web_clone/Views/Member/NewMember.cshtml" />
+      <File FileName="Inu_web_clone/Views/Member/Member.cshtml" />
+      <File FileName="Inu_web_clone/Program.cs" Line="11" Column="1" />
+      <File FileName="Inu_web_clone/Views/Member/EditMember.cshtml" />
+      <File FileName="Inu_web_clone/Views/Home/Index.cshtml" />
+      <File FileName="Inu_web_clone/Views/Shared/_Layout.cshtml" />
+      <File FileName="Inu_web_clone/Models/ErrorViewModel.cs" />
+      <File FileName="Inu_web_clone/Models/InuDB.cs" />
+      <File FileName="Inu_web_clone/Controllers/HomeController.cs" />
+      <File FileName="Inu_web_clone/Startup.cs" />
+      <File FileName="Inu_web_clone/appsettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Inu_web_clone" expanded="True">
+            <Node name="Inu_web_clone" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="DAO" expanded="True">
+                  <Node name="DaoMember.cs" selected="True" />
+                </Node>
+                <Node name="DTO" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Member" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Inu__web__clone PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/choeseung-won/programming</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

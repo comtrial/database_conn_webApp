@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<Inu_web_clone.Models.DTO.DtoMember>
+    <!--모델 단의 Dto list 데이터 객체를 가져오기 위해서-->
+@{
+    ViewData["Title"] = "Membr Page";
+}
+
+
+    <div class="text-center">
+        <h1 class="display-4">Member</h1>
+
+
+        <p>
+            <button class="btn-light"><a asp-action="NewMember">NewMember</a></button>
+        </p>
+        <!--새로운 데이터 형성 버튼-->
+
+        <table class="table">
+            <tr>
+                <th>id</th>
+                <th>title</th>
+                <th>author</th>
+                <th>e_mail</th>
+                <th>cnt</th>
+                <th>date</th>
+                <th>password</th>
+                <th>content</th>
+                <!--th = 테이블의 제목들에 해당하는 태그-->
+            </tr>
+
+            @foreach (var member in Model)
+                //cshtml안에서 함수를 사용하기 위한 문법
+                //Model에 들어온 list들 중 member 빼오기 위한 코 
+            {
+                <tr>
+                    <td>
+                        <label>@member.id</label>
+                    </td>
+                    <td>
+                        <label>@member.title</label>
+                    </td>
+                    <td>
+                        <label>@member.author</label>
+                    </td>
+                    <td>
+                        <label>@member.e_mail</label>
+                    </td>
+                    <td>
+                        <label>@member.cnt</label>
+                    </td>
+                    <td>
+                        <label>@member.date</label>
+                    </td>
+                    <td>
+                        <label>@member.password</label>
+                    </td>
+                    <td>
+                        <label>@member.content</label>
+                    </td>
+                    <td>
+                        <button class="btn-light" value="Edit" onclick="location.href = '@(Url.Action("EditMember", "Member", new { id = member.id }))'">
+                            Edit
+                        </button>
+                        <!--마우스 클릭시 Editmember로 보내주는 이벤트 함
+                            , id 값의 전달-->
+                    </td>
+                    <!-- td = 테이블 열의 요소들에 해당하는 태그-->
+                </tr>
+            }
+        </table>
+    </div>
